@@ -1,0 +1,23 @@
+.Chat-container {
+    height: 100%;
+    padding-top: 50px;
+    position: fixed;
+  }
+  
+  .Chat-newContainer {
+    width: 150%;
+    height:70%;
+  }
+  
+  .Chat-historyContainer {
+    flex-grow: 1;
+    overflow-y: auto;
+    height:200%;
+    width: 150%;
+  }
+
+.Chat-container2 {
+    padding-top: 70px;
+    height:100%;
+}
+  

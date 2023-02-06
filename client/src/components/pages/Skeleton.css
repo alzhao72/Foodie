@@ -1,0 +1,138 @@
+/* .each-slide-effect > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.each-slide-effect span {
+  padding: 20px;
+  font-size: 40px;
+  background: #fff;
+  color: #115870;
+  text-align: center;
+  font-family: playfair display;
+  font-style: italic;
+  font-weight: 500;
+
+} */
+
+.Homepage {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color:#e7e8f3;
+  align-items: center;
+  flex-direction: column;
+  }
+  
+.Panda-pic img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 220px;
+  width: 200px;
+}
+.Panda-pic span {
+  color: #505489;
+  font-family: roboto;
+  padding: 30px;
+}
+
+.Panda2-pic img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 210px;
+  width: 200px;
+}
+
+.Panda2-pic span {
+  color: #505489;
+  font-family: roboto;
+
+}
+
+.Panda3-pic img {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 300px;
+}
+
+.Panda3-pic span {
+  color: #505489;
+  font-family: roboto;
+  padding: 15px;
+}
+
+
+.Foodie-text {
+  padding-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #505489;
+  font-family:cursive;
+  font-size: 70px;
+}
+
+.Pictures {
+  padding-left: 5%;
+  display: flex;
+  flex-direction: row;
+}
+
+.Foodie-title {
+  padding-top: 14%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60vw;
+}
+
+.About-Container{
+  padding-top: 78px;
+  padding-left: 300px;
+  padding-right: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: roboto;
+  color: #505489;
+}
+
+.About-button {
+  vertical-align: middle;
+  background-color: white; 
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  border-radius:15px;
+  border: 4px solid #505489;  
+}
+
+.About-button:hover {
+  background-color: #e7e8f3;
+}
+
+.About-link {
+  color: #505489;
+  text-decoration: none;
+} 
+.About-link:visited {
+ text-decoration: none;
+}
+
+.Test-box {
+ padding-top: 200px;
+}

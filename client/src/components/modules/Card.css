@@ -1,0 +1,73 @@
+.Card-container {
+  border-radius: var(--xs);
+  margin-bottom: var(--l);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #e7e8f3;
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.Card-story{
+  padding: var(--m) var(--l);
+}
+
+.Card-storyUser {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.Card-storyContent {
+  font-size: 15px;
+  margin: var(--s) 0 0;
+}
+
+.Card-commentSection {
+  font-size: 15px;
+}
+
+.Card-commentBody {
+  margin: 0 0 var(--s);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Card-story {
+  width: 500px;
+}
+
+ul {
+  list-style-type: none;
+ }
+
+ .DragDrop-icon{
+  width: 50px;
+ }
+
+
+ .MiniCard-container {
+  border: var(--darkgrey) 1px solid;
+  border-radius: var(--xs);
+  margin-top: var(--s);
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 350px;
+  background-color: white;
+}
+
+.FeedContainer {
+  margin: 5%;
+}
+
+.No-posts {
+  padding-left: 25px;
+  position: fixed;
+}
+

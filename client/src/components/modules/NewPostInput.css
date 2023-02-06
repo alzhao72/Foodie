@@ -1,0 +1,244 @@
+.NewPostInput-input {
+  font-family: "Roboto";
+  font-size: 14px;
+  padding: var(--s) var(--m);
+  width: 100%;
+  margin-top: var(--s);
+}
+
+.NewPostInput-input:focus-within {
+  border-color: var(--primary--dim);
+  box-shadow: 0 0 0 var(--xs) rgba(0, 123, 255, 0.25);
+}
+
+.NewPostInput-button {
+  border: var(--primary) 1px solid;
+  transition: color 0.1s, background 0.1s;
+  background-color: #505489; 
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-family: "Roboto";
+  border-radius: 0 4px 4px 0;
+  margin-top: var(--s);
+}
+
+.Upload-button {
+  vertical-align: middle;
+  background-color: #505489; 
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-family: "Roboto";
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.Upload-button:hover {
+  background-color: #505489;
+  color: white;
+}
+
+.Postpanda-button {
+  vertical-align: middle;
+  background-color: #505489; 
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-family: "Roboto";
+  border-radius: 8px;
+  margin-bottom: 8px;
+  margin-left: 15px;
+  padding: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.Postpanda-button:hover {
+  background-color: #505489;
+  color: white;
+}
+
+.NewPostInput-button:hover {
+  background-color: #505489;
+  color: white;
+}
+
+.profile-color {
+  color: #505489; 
+}
+
+.profile-color:hover {
+  color: #505489;
+}
+
+img {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+}
+
+.Upload-form {
+  width: 100%;
+  text-align: left;
+  justify-content: left;
+  align-items: center;
+  display: flex;
+}
+
+.Upload-form2 {
+  width: 500px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 4%;
+}
+
+.QuillEditor {
+  background-color: white;
+  width: 500px;
+}
+
+.ql-editor {
+  min-height: 150px;
+  overflow-y: auto;
+}
+
+textarea {
+  height: 200px;
+}
+
+.Post-heading {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20%;
+  padding-left: 20%;
+  font-size: 25px;
+}
+
+.Post-creator {
+  flex-basis: 4;
+  flex-grow: 1;
+}
+.Post-buttons {
+  flex-basis: 1;
+  flex-grow: 1;
+}
+
+.Delete-button {
+  background-color: white; 
+  font-weight: bold;
+  border: none;
+  color: #505489;
+  padding: 5px 9px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 9px;
+  margin-left: auto;
+  margin-left: 4px;
+  flex-basis: 1;
+}
+
+.Delete-button:hover {
+  background-color: #cbcbd2;
+}
+
+.Save-button {
+  background-color: white; 
+  font-weight: bold;
+  border: none;
+  color: #505489;
+  padding: 5px 9px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 9px;
+  margin-left: auto;
+  flex-basis: 1;
+}
+
+.Save-button:hover {
+  background-color: #cbcbd2;
+}
+
+.Create-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.Upload-form span {
+  font-size: 14px;
+  margin-left: auto;
+}
+
+.Purple {
+  display: flex;
+  flex-direction: row;
+}
+
+.Purple img {
+  padding-top: 18px;
+  padding-left: 7px;
+  width: 14px;
+  height: 20px;
+}
+
+.Posted {
+  display: flex;
+  flex-direction: row;
+}
+
+.Post-panda img {
+  width: 130px;
+  height: 110px;
+  padding-left: 52px;
+}
+
+.Overall-post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Like-button img {
+  width: 17px;
+  height: 17px;
+}
+
+.Like-button {
+  vertical-align: middle;
+  background-color: white; 
+  font-weight: bold;
+  border: none;
+  color: #505489;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 9px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.Like-button:hover {
+  background-color: #cbcbd2;
+}

@@ -1,0 +1,15 @@
+.Chatbook-container {
+    max-width: 960px;
+    padding: var(--m) var(--m);
+    margin: auto;
+  }
+  
+  .Chatbook-userList {
+    width: 260px;
+    margin-right: var(--l);
+  }
+  
+  .Chatbook-chatContainer {
+    flex-grow: 1;
+  }
+  

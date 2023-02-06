@@ -1,0 +1,236 @@
+.Profile-avatarContainer {
+  /* padding: 0 10%; */
+  padding-left: 123px;
+  display: flex;
+  align-items: center;
+}
+
+.Profile-avatar {
+  /* make it responsive */
+  max-width: 8%;
+  width: 8%;
+  height: auto;
+  display: inline-flex;
+  /* div height to be the same as width*/
+  padding-top: 8%;
+
+  /* make it a circle */
+  border-radius: 50%;
+
+  /* Centering on image`s center*/
+  background-position-y: center;
+  background-position-x: center;
+  background-repeat: no-repeat;
+
+  /* it makes the clue thing, takes smaller dimension to fill div */
+  background-size: cover;
+
+  /* it is optional, for making this div centered in parent*/
+  /*margin: 0 auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  */
+  position: absolute;
+  float: left;
+  top: 120px;
+  left: 22px;
+}
+
+.Profile-name {
+  font-size: 20px;
+  font-weight: 300;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.Profile-heading {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  padding-top: 30px; 
+}
+
+.Profile-bioContainer {
+  /* padding: 0 10%; */
+  padding-left: 123px;
+  display: flex;
+  align-items: left;
+ 
+}
+
+.Profile-rankingContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.Profile-line {
+  border-color: var(--grey);
+}
+
+.Profile-subContainer {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.Profile-subContainer + .Profile-subContainer {
+  margin-left: var(--m);
+}
+
+.Profile-subTitle {
+  font-weight: 200;
+  font-size: 18px;
+  margin: var(--m) var(--s);
+}
+
+
+.Profile-headingContainer {
+  padding: var(--m) var(--l);
+  background-color: var(--white);
+  vertical-align: middle;
+}
+
+.Profile-ranking {
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: left;
+}
+
+
+/* .Profile-heading {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 20px;
+} */
+
+.Profile-nameAndBio {
+  padding-left: 4%;
+}
+
+.Profile-general{
+  padding-top: 20px;
+}
+
+.img{
+  height:200px;
+  width: 250px;
+}
+
+/* *{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.body{
+  height: 100vh;
+  width:100%;
+}
+
+.profile-pic-div{
+  height:125px;
+  width: 125px;
+  position: absolute;
+  top: 23%;
+  bottom: 50%;
+  left: 7%;
+  transform: translate(-50%,-50%);
+  border-radius: 50% ;
+  overflow: hidden;
+  border: 0.5px solid rgb(164, 163, 163);
+}
+
+.photo{
+  height: 100%;
+  width: 100%;
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.file{
+  display: none;
+
+}
+
+.uploadBtn{
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  background: #505489;
+  color: white;
+  line-height: 30px;
+  font-family: sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+  display: none;
+  /* display: block; */
+}
+
+
+.profile-pic-div:hover .uploadBtn{
+  display:block;
+  /* background-color: purple; */
+  /* display: none; */
+}
+
+
+
+.file-link{
+  display:none;
+}
+
+.line{
+  /* color: lightgray; */
+  border-bottom: 4px dotted #e7e8f3;
+  display: block;
+}
+
+.editProfile-button {
+  /* vertical-align: middle;
+  background-color: #505489; 
+  font-weight: bold;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 9px; */
+  color: #505489;
+  vertical-align: middle;
+  background-color: white; 
+  font-weight: bold;
+  border: none;
+  padding: 8px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius:15px;
+  border: 2px solid #505489;  
+}
+
+.editProfile-button:hover {
+  background-color: #e7e8f3;
+}
+
+.friends-link {
+  color: #505489;
+  text-decoration: none;
+} 
+.friends-link:visited {
+ text-decoration: none;
+}
+
+.buffer {
+  padding-top: 40px;
+}

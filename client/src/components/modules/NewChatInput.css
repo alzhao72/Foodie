@@ -1,0 +1,31 @@
+.NewChatInput-input,
+.NewChatInput-button {
+  font-family: "Roboto";
+  font-size: 14px;
+  padding: var(--s) var(--m);
+}
+
+.NewChatInput-input {
+  flex-grow: 1;
+  border: var(--darkgrey) 1px solid;
+  border-radius: var(--xs) 0 0 var(--xs);
+  transition: box-shadow 0.1s;
+}
+
+.NewChatInput-input:focus-within {
+  border-color: var(--primary--dim);
+  box-shadow: 0 0 0 var(--xs) rgba(0, 123, 255, 0.25);
+}
+
+.NewChatInput-button {
+  color: var(--primary);
+  border: var(--primary) 1px solid;
+  border-radius: 0 var(--xs) var(--xs) 0;
+  background: none;
+  transition: color 0.1s, background 0.1s;
+}
+
+.NewChatInput-button:hover {
+  color: var(--white);
+  background-color: var(--primary);
+}

@@ -1,0 +1,70 @@
+.NavBar-container {
+  padding: var(--m) var(--l);
+  background-color: #505489;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 100;
+  position: fixed; 
+  top: 0;
+  width: calc(100% - 2*var(--l));
+}
+
+.NavBar-title {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.NavBar-linkContainer {
+  margin-left: var(--l);
+}
+
+.NavBar-right {
+  margin-left: auto;
+}
+
+.NavBar-link,
+.NavBar-link:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.NavBar-link:hover {
+  color: #e7e8f3;
+}
+
+.NavBar-link.NavBar-login {
+  opacity: 1;
+}
+
+.NavBar-link + .NavBar-link {
+  margin-left: var(--m);
+}
+
+.my-button {
+  vertical-align: middle;
+  background-color: white; 
+  font-weight: bold;
+  border: none;
+  color: #505489;
+  padding: 8px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 9px;
+}
+
+.my-button:hover {
+  background-color: #e7e8f3;
+}
+
+.Logout-link {
+  color: #505489;
+  text-decoration: none;
+} 
+.Logout-link:visited {
+ text-decoration: none;
+}
+

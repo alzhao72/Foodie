@@ -1,0 +1,211 @@
+  .User-friends {
+    width: 1000; 
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    overflow-y: hidden;
+    min-width: auto;
+    
+  }
+
+  .No-friends {
+    padding-top:70px;
+    padding-left: 21px;
+    position: fixed;
+  }
+
+  .FriendCardBlock-container {
+    border-radius: var(--xs);
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 90vh;
+    width: 24vw;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 1;
+    min-width: auto;
+  }
+
+  .FriendCardBlock-scroll {
+    background-color: #e7e8f3;
+    border-radius: var(--xs);
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 90%;
+    width: 100%;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: auto;
+  }
+
+  .RequestCardBlock-scroll {
+    background-color: #e7e8f3;
+    border-radius: var(--xs);
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 45%;
+    width: 100%;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: auto;
+  }
+
+  .Hidden-scroll {
+    background-color: #e7e8f3;
+    border-radius: var(--xs);
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Friend-p, .Friend-Link {
+    font-size: 15px;
+    margin: 0px;
+    padding-top: 5px;
+    font-family: Roboto;
+  }
+
+  .Friend-h5 {
+    font-size: 14px;
+    margin-bottom: 2%;
+  }
+
+  .FriendCard-container {
+    background-color: #e7e8f3;
+    display: flex;
+    border-radius: var(--xs);
+    width: 90%; 
+    margin-top: 1.5%;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .NewFriendSearch-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    justify-content: center;
+    display: flex;
+    padding: 1.5%;
+    width: 90%;
+  }
+
+  .NewFriendSearch-input {
+    font-family: "Roboto";
+    font-size: 13px;
+    padding: 2%;
+    flex-basis: 3;
+  }
+  
+  .NewFriendSearch-input:focus-within {
+    border-color: var(--primary--dim);
+    box-shadow: 0 0 0 var(--xs) rgba(0, 123, 255, 0.25);
+  }
+
+  .NewFriendSearch-button {
+    padding: var(--s) var(--m);
+    border: #505489 1px solid;
+    border-radius: 0 2px 2px 0;
+    transition: color 0.1s, background 0.1s;
+    background-color: #505489; 
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    font-family: "Roboto";
+    flex-basis: 1;
+  }
+
+  .NewFriendSearch-button:hover {
+    background-color:  #424571;
+  }
+
+  .Friend-button {
+    vertical-align: middle;
+    display: flex;
+    justify-content: right;
+    background-color: #505489; 
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 6px;
+    margin-left: auto;
+    overflow: hidden;
+    min-width: auto;
+  }
+  
+  .Friend-button:hover {
+    background-color:  #424571;
+  }
+
+/*---------------------------------------*/
+
+  .Feed-container {
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+
+  .FeedSelector-container {
+    margin-left: 8px;
+    min-width: 150px;
+    flex-shrink: 0;
+  }
+
+  select {
+    min-width: 250px;
+    height: 30px;
+    font-family: "Roboto";
+    font-size: 15px;
+    color: var(--primary);
+    border: #abacc4 2px solid;
+    border-radius: var(--xs);
+  }
+
+  .CardBlock-container {
+    flex-basis: 0;
+    min-width: 600px;
+    margin-left: 8px;
+    margin-right: 8px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Empty {
+    visibility: hidden;
+    min-width: 150px;
+  }
+
+  .DragDrop-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
