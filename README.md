@@ -1,4 +1,5 @@
 Foodie is a social media platform where friends can share and rank local food recommendations with each other.
+(Created during MIT's web.lab course/competition)
 
 # Features:
 Users can:
