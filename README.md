@@ -1,5 +1,4 @@
-A website where friends can share and rank local food recommendations with each other 
-Created for MIT's web.lab course/competition
+A website where friends can share and rank local food recommendations with each other; created for MIT's web.lab course/competition
 
 # Features:
 Users can:
